@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["ctg-studies (1)"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.138.1452.0 (24.11)
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'ctg-studies (1)'
+ref table DateTableTemplate_98cea628-0612-45c3-8e46-da584ce1c4f3
+ref table LocalDateTable_13581c59-80a2-4875-889f-1313dd25bbdd
+ref table LocalDateTable_26d89c63-7b41-49c2-9c71-b4997093c344
+ref table LocalDateTable_a87b7651-c2b5-41b5-a190-159bb3f4f7f2
+ref table LocalDateTable_c7ba7622-9143-464b-8259-8aa178541593
+
+ref cultureInfo en-US
+

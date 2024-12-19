@@ -1,0 +1,20 @@
+relationship eddb186e-3ff4-4e59-a083-fa6c2323fa73
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'ctg-studies (1)'.'Start Date'
+	toColumn: LocalDateTable_13581c59-80a2-4875-889f-1313dd25bbdd.Date
+
+relationship 9d44d311-7966-4f0b-9ef8-94e8e1253b3d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'ctg-studies (1)'.'Primary Completion Date'
+	toColumn: LocalDateTable_26d89c63-7b41-49c2-9c71-b4997093c344.Date
+
+relationship 8e91f17f-afc8-4a1e-9a7c-4b00d7a37fcd
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'ctg-studies (1)'.'Completion Date'
+	toColumn: LocalDateTable_a87b7651-c2b5-41b5-a190-159bb3f4f7f2.Date
+
+relationship cdeb060c-b1e0-4a21-96fc-f930d9e59c57
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'ctg-studies (1)'.'Results First Posted'
+	toColumn: LocalDateTable_c7ba7622-9143-464b-8259-8aa178541593.Date
+

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "ReportSectionba87291229b9b62b2ad9",
+  "displayName": "Page 4",
+  "displayOption": "FitToPage",
+  "height": 950,
+  "width": 1400,
+  "visibility": "HiddenInViewMode"
+}
